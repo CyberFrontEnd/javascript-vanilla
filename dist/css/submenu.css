@@ -166,13 +166,12 @@ Stripe Styles
 .hero::before {
   content: '';
   position: absolute;
-  width: 100%;
+  width: 100% !important;
   height: 65%;
   top: 0;
   left: 0;
-  background: url(./images/hero.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url('../images/hero.svg') no-repeat;
+  background-size: cover !important;
   z-index: -1;
 }
 .hero {
