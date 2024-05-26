@@ -165,7 +165,7 @@ main {
 .container {
   text-align: center;
 }
-#value {
+#result {
   font-size: 6rem;
   font-weight: bold;
 }
